@@ -1,0 +1,33 @@
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(228, 236, 241);
+  border-top: 1px solid #aaaaaa;
+  list-style: none;
+  text-align: center;
+}
+
+.stats li {
+  padding: 20px 0px;
+}
+
+.stats li:not(:last-child) {
+  border-right: 1px solid #aaaaaa;
+}
+
+.label,
+.quantity {
+  display: block;
+}
+
+.label {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.quantity {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}

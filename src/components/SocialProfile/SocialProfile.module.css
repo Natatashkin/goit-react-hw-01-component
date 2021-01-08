@@ -1,0 +1,42 @@
+.profile {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.description {
+  padding: 40px;
+  /* border-bottom: 1px solid lightgrey; */
+}
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.name,
+.tag,
+.location {
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 32px;
+}
+
+.tag {
+  margin-bottom: 20px;
+}
+
+.location {
+  font-size: 20px;
+}
