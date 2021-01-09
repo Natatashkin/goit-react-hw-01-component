@@ -1,0 +1,38 @@
+.item {
+  display: grid;
+  grid-template-columns: 0.1fr 0.3fr 1fr;
+  align-items: center;
+  padding: 7px 0px;
+  border: 1px solid green;
+  background-color: #ffffff;
+}
+
+.status {
+  display: grid;
+  justify-self: end;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  composes: status;
+  background-color: red;
+}
+
+.isOffline {
+  composes: status;
+  background-color: green;
+}
+
+.avatar {
+  display: grid;
+  justify-self: center;
+  background-color: lightslategray;
+  border-radius: 3px;
+}
+
+.name {
+  color: #000000;
+  font-size: 22px;
+}
