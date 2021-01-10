@@ -1,0 +1,54 @@
+.transactionHistory {
+  display: grid;
+  grid-auto-flow: row;
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+thead {
+  background-color: rgb(83, 137, 238);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+thead > tr,
+tbody > tr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+thead > tr > th,
+tbody > tr > td {
+  padding: 15px 0px;
+}
+thead > tr > th:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+
+tbody > tr {
+  background-color: #ffffff;
+}
+
+tbody > tr:hover,
+tbody > tr:focus {
+  background-color: rgb(168, 109, 223);
+  color: #ffffff;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+tbody > tr:hover:nth-child(even),
+tbody > tr:focus:nth-child(even) {
+  background-color: rgb(168, 109, 223);
+}
+
+tbody > tr > td {
+  text-align: center;
+}
+tbody > tr > td:first-child {
+  text-transform: capitalize;
+}
+tbody > tr > td:not(:last-child) {
+  border-right: 1px solid #dddddd;
+}
