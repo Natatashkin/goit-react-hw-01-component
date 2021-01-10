@@ -27,9 +27,3 @@ FriendList.propTypes = {
 };
 
 export default FriendList;
-
-// <li className={s.item}>
-//   <span className={isOnline ? s.isOnline : s.isOffline}></span>
-//   <Avatar src={avatar} alt={name} />
-//   <p className={s.name}>{name}</p>
-// </li>;
